@@ -1,0 +1,343 @@
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
+}
+
+.mainNav {
+  width: 100%;
+  height: 140px;
+  position: relative;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  text-transform: uppercase;
+  padding: 0px 0px 0px 0px;
+  background-color: #e3eefc;
+}
+@media screen and (max-width: 799px) {
+  .mainNav {
+    padding: 0 20px;
+  }
+}
+.mainNav__logo {
+  position: relative;
+  left: 35%;  
+  font-weight: 800;
+  letter-spacing: 1px;
+  
+}
+.mainNav__links {
+  display: flex;
+  position: relative;
+  right: 10%;
+}
+@media screen and (max-width: 799px) {
+  .mainNav__links {
+    display: none;
+  }
+}
+.mainNav__link {
+  color: #637498;
+  letter-spacing: 1px;
+  font-size: 14px;
+  margin-left: 20px;
+  font-weight: 600;
+  box-shadow: inset 0px -10px 0px rgba(255, 255, 255, 0.5);
+  transition: all 0.4s ease, transform 0.2s ease;
+  padding: 2px 4px;
+  transform: translateY(0px);
+}
+.mainNav__link:hover {
+  transform: translateY(-5px);
+  box-shadow: inset 0px -20px 0px white;
+}
+
+
+/* контент  */
+.container {
+    max-width: 1000px;
+    width: 100%;
+    left: 9%;
+    margin: 0 auto;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 16px;
+    top: 100px;
+  }
+
+.sales h1 {
+  position: relative;
+    margin: 0 0 80px;
+    
+}
+.wrapper {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.politics .wrapper-content {
+    max-width: 757px;
+}
+
+.wrapper-content {
+    width: calc(100% - 338px);
+    padding: 0 0 0 16px;
+}
+.mb-80 {
+    margin-bottom: 80px;
+}
+.politics-box .box-text {
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.box-text {
+    font-size: 15px;
+    line-height: 150%;
+}
+.scroll-horizontal {
+    padding: 0 20px 0 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+.politics-box .box-text {
+    font-size: 15px;
+    line-height: 150%;
+}
+
+
+
+.form-callback .box-text {
+    margin: 0 0 60px;
+    font-size: 15px;
+    color: #666666;
+}
+
+.box-text {
+    font-size: 15px;
+    line-height: 150%;
+}
+.form-callback input {
+    height: 52px;
+    font-size: 15px;
+    padding: 0 20px;
+}
+input, textarea, select {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0 24px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    color: #202020;
+    width: 100%;
+    height: 79px;
+    border: 1px solid #DEDEDE;
+    border-radius: 0;
+}
+
+.form-callback label {
+    margin: 0 0 32px;
+    position: relative;
+}
+label {
+    display: block;
+    width: 100%;
+}
+
+.form-callback input {
+    height: 52px;
+    font-size: 15px;
+    padding: 0 20px;
+}
+input, textarea, select {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0 24px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    color: #202020;
+    width: 100%;
+    height: 79px;
+    border: 1px solid #DEDEDE;
+    border-radius: 0;
+}
+.btn-accent {
+    background: #00255e;
+    color: #fff;
+    padding: 0 18px;
+    border: 1px solid #4789ec;
+}
+.btn-accent:after {
+    content: '';
+    position: absolute;
+    right: -2px;
+    top: -1px;
+    width: 0;
+    height: calc(100% + 2px);
+    -webkit-transition: .6s ease;
+    transition: .6s ease;
+    display: inline-block;
+}
+
+/*футер */
+footer{
+  display: block;
+  background-color: #202020;
+  height: 300px;
+  width: 100%;
+  position:absolute;
+  top: 110%;
+  color: white;
+  line-height: 2em;
+}
+.footer{
+  
+  height: 300px;
+  
+}
+
+
+.container1{
+  display: flex;
+}
+.aa {
+  text-decoration: none;
+  List-style: none;
+  list-style-type: none;
+  color: white;
+}
+
+.aa:link, .aa:link:visited {
+  color: white;
+}
+.aa:hover {
+  color: #0077b5;
+  
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer-menu{
+  padding: 0px 0px;
+  position: relative;
+  top: -50px;
+}
+.footer-menu2{
+  padding: 0px 0px;
+  position: relative;
+  top: -50px;
+}
+.footer-box1{
+  padding: 0px 30px;
+  position: relative;
+  left: 200px;
+  width: fit-content;
+  height: fit-content;
+}
+.footer-box2{
+  padding: 0px 30px;
+  position: relative;
+  left: 250px;
+  width: fit-content;
+  height: fit-content;
+}
+.footer-box3{
+  padding: 0px 30px;
+  position: relative;
+  left: 350px;
+  width: fit-content;
+  height: fit-content;
+}
+.footer-box4{
+  padding: 0px 30px;
+  position: absolute;
+  left:0;
+  top: 25px;
+  
+}
+.list-payment{
+  position: relative;
+  display: flex;
+  right: 37px;
+
+}
+
+.contacts-box{
+  position: relative;
+  top: -40px;
+  color: white;
+  text-decoration: none;
+  List-style: none;
+  list-style-type: none;
+}
+.container2{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.logo {
+    margin: 0;
+    color: #fff;
+    font-size: 11pt;
+    
+
+}
+
+.links-grey{
+  color: white;
+}
+.footer-bottom{
+  position: relative;
+  bottom: 70px;;
+}
+.footer-top{
+  height: 300px;
+}
+
+.aa1{
+  color: white;
+  font-size: 2em;
+  text-decoration: none;
+  List-style: none;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.aa1:hover {
+  color: #637498;
+}
+
+.map{
+  position: relative;
+  left: 70%;
+  bottom: 300px;
+  width: 400px;
+  height: 200px;
+}

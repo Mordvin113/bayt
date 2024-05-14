@@ -1,0 +1,436 @@
+body {
+    font-family: "Raleway", sans-serif;
+    margin: 0px;
+  }
+  
+  .mainNav {
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    text-transform: uppercase;
+    padding: 0px 0px 0px 0px;
+    background-color: #e3eefc;
+  }
+  @media screen and (max-width: 799px) {
+    .mainNav {
+      padding: 0 20px;
+    }
+  }
+  .mainNav__logo {
+    position: relative;
+    left: 35%;  
+    font-weight: 800;
+    letter-spacing: 1px;
+    
+  }
+  .mainNav__links {
+    display: flex;
+    position: relative;
+    right: 10%;
+  }
+  @media screen and (max-width: 799px) {
+    .mainNav__links {
+      display: none;
+    }
+  }
+  .mainNav__link {
+    color: #637498;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 600;
+    box-shadow: inset 0px -10px 0px rgba(255, 255, 255, 0.5);
+    transition: all 0.4s ease, transform 0.2s ease;
+    padding: 2px 4px;
+    transform: translateY(0px);
+  }
+  .mainNav__link:hover {
+    transform: translateY(-5px);
+    box-shadow: inset 0px -20px 0px white;
+  }
+
+  /*КОНТЕНТ*/
+
+  .kat{
+   position: absolute;
+   top:20%;
+   margin-left: 120px;
+  }
+  .spisok-tovarov{
+    display: flex;
+    margin: 50px 0px;
+    
+    
+  }
+
+  .spisok{
+    color: #637498;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 600;
+    box-shadow: inset 0px -10px 0px rgba(255, 255, 255, 0.5);
+    transition: all 0.4s ease, transform 0.2s ease;
+    padding: 2px 4px;
+    transform: translateY(0px);
+    
+    
+  }
+
+  .spisok:hover{
+    background-attachment: fixed;
+    transform: translateY(-5px);
+    box-shadow: inset 0px -20px 0px white;
+  }
+
+  .spisok1{
+    color: #637498;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 600;
+    box-shadow: inset 0px -10px 0px rgba(255, 255, 255, 0.5);
+    transition: all 0.4s ease, transform 0.2s ease;
+    padding: 2px 4px;
+    transform: translateY(0px);
+    border: #637498;
+    border-style:double;
+    border-radius: 1%;
+    
+  }
+
+  .spisok1:hover{
+    background-attachment: fixed;
+    transform: translateY(-5px);
+    box-shadow: inset 0px -20px 0px white;
+  }
+
+  
+
+  .spisok2{
+    color: #637498;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 600;
+    box-shadow: inset 0px -10px 0px rgba(255, 255, 255, 0.5);
+    transition: all 0.4s ease, transform 0.2s ease;
+    padding: 2px 4px;
+    transform: translateY(0px);
+    border: #637498;
+    border-style:double;
+    border-radius: 1%;
+  }
+
+  .spisok2:hover{
+    transform: translateY(-5px);
+    box-shadow: inset 0px -20px 0px white;
+  }
+
+  .spisok3{
+    color: #637498;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 600;
+    box-shadow: inset 0px -10px 0px rgba(255, 255, 255, 0.5);
+    transition: all 0.4s ease, transform 0.2s ease;
+    padding: 2px 4px;
+    transform: translateY(0px);
+    border: #637498;
+    border-style:double;
+    border-radius: 1%;
+  }
+
+  .spisok3:hover{
+    transform: translateY(-5px);
+    box-shadow: inset 0px -20px 0px white;
+  }
+
+  .spisok4{
+    color: #637498;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 600;
+    box-shadow: inset 0px -10px 0px rgba(255, 255, 255, 0.5);
+    transition: all 0.4s ease, transform 0.2s ease;
+    padding: 2px 4px;
+    transform: translateY(0px);
+    border: #637498;
+    border-style:double;
+    border-radius: 1%;
+  }
+
+  .spisok4:hover{
+    transform: translateY(-5px);
+    box-shadow: inset 0px -20px 0px white;
+  }
+
+
+  .spisok5{
+    color: #637498;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 600;
+    box-shadow: inset 0px -10px 0px rgba(255, 255, 255, 0.5);
+    transition: all 0.4s ease, transform 0.2s ease;
+    padding: 2px 4px;
+    transform: translateY(0px);
+    border: #637498;
+    border-style:double;
+    border-radius: 1%;
+  }
+
+  .spisok5:hover{
+    transform: translateY(-5px);
+    box-shadow: inset 0px -20px 0px white;
+  }
+
+
+
+  .katalog{
+    margin-left: 20px;
+  }
+   
+/***/
+  .vse-tovar{
+    position: absolute;
+    top:40%;
+    margin-left: 120px;
+  }
+
+  .vse-tv{
+    display: flex;
+    margin: 50px 0px;
+  }
+    
+
+    .vse{
+        position: relative;
+        color: #637498;
+        letter-spacing: 1px;
+        font-size: 14px;
+        margin-left: 100px;
+        font-weight: 600;
+        box-shadow: inset 0px -10px 0px rgba(255, 255, 255, 0.5);
+        transition: all 0.4s ease, transform 0.2s ease;
+        padding: 2px 4px;
+        transform: translateY(0px);
+        
+    }
+
+    .vse:hover{
+        box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .TXT-KAT{
+        text-align: left;
+        text-decoration: none;
+        color: #637498;
+    }
+
+    .vse-tovar2{
+        position: absolute;
+        top:90%;
+        margin-left: 120px;
+
+    }
+
+    .vse-tv2{
+        position: relative;
+        top:100%;
+        display: flex;
+        margin: 60px 0px;
+
+
+    }
+    .vse2{
+        position: relative;
+        color: #637498;
+        letter-spacing: 1px;
+        font-size: 14px;
+        
+        margin-left: 100px;
+        font-weight: 600;
+        box-shadow: inset 0px -10px 0px rgba(255, 255, 255, 0.5);
+        transition: all 0.4s ease, transform 0.2s ease;
+        padding: 2px 4px;
+        transform: translateY(0px);
+    }
+    .vse2:hover{
+        box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+  /***/
+
+  .vse-tovar3{
+    position: absolute;
+    top:140%;
+    margin-left: 120px;
+
+}
+
+.vse-tv3{
+    position: relative;
+    top:100%;
+    display: flex;
+    margin: 60px 0px;
+
+
+}
+.vse3{
+    position: relative;
+    color: #637498;
+    letter-spacing: 1px;
+    font-size: 14px;
+    
+    margin-left: 100px;
+    font-weight: 600;
+    box-shadow: inset 0px -10px 0px rgba(255, 255, 255, 0.5);
+    transition: all 0.4s ease, transform 0.2s ease;
+    padding: 2px 4px;
+    transform: translateY(0px);
+}
+.vse3:hover{
+    box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*футер*/
+
+.footer{
+  display: block;
+  background-color: #202020;
+  height: 300px;
+  width: 100%;
+  position:absolute;
+  top: 90%;
+  color: white;
+  line-height: 2em;
+}
+.container1{
+  display: flex;
+}
+.aa {
+  text-decoration: none;
+  List-style: none;
+  list-style-type: none;
+  color: white;
+}
+
+.aa:link, .aa:link:visited {
+  color: white;
+}
+.aa:hover {
+  color: #0077b5;
+  
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer-menu{
+  padding: 0px 0px;
+  position: relative;
+  top: -50px;
+}
+.footer-menu2{
+  padding: 0px 0px;
+  position: relative;
+  top: -50px;
+}
+.footer-box1{
+  padding: 0px 30px;
+  position: relative;
+  left: 200px;
+  width: fit-content;
+  height: fit-content;
+}
+.footer-box2{
+  padding: 0px 30px;
+  position: relative;
+  left: 250px;
+  width: fit-content;
+  height: fit-content;
+}
+.footer-box3{
+  padding: 0px 30px;
+  position: relative;
+  left: 350px;
+  width: fit-content;
+  height: fit-content;
+}
+.footer-box4{
+  padding: 0px 30px;
+  position: absolute;
+  left:0;
+  top: 25px;
+  
+}
+.list-payment{
+  position: relative;
+  display: flex;
+  right: 37px;
+
+}
+
+.contacts-box{
+  position: relative;
+  top: -40px;
+  color: white;
+  text-decoration: none;
+  List-style: none;
+  list-style-type: none;
+}
+.container2{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.logo {
+	margin: 0;
+	color: #fff;
+	font-size: 11pt;
+	
+
+}
+
+.links-grey{
+  color: white;
+}
+.footer-bottom{
+  position: relative;
+  bottom: 70px;;
+}
+.footer-top{
+  height: 300px;
+}
+
+.aa1{
+  color: white;
+  font-size: 2em;
+  text-decoration: none;
+  List-style: none;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.aa1:hover {
+  color: #637498;
+}
+
+.map{
+  position: relative;
+  left: 70%;
+  bottom: 100%;
+  width: 400px;
+  height: 200px;
+}

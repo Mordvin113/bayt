@@ -1,0 +1,220 @@
+body {
+    font-family: "Raleway", sans-serif;
+    margin: 0px;
+  }
+  
+  .mainNav {
+    width: 100%;
+    height: 140px;
+    position: relative;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    text-transform: uppercase;
+    padding: 0px 0px 0px 0px;
+    background-color: #e3eefc;
+  }
+  @media screen and (max-width: 799px) {
+    .mainNav {
+      padding: 0 20px;
+    }
+  }
+  .mainNav__logo {
+    position: relative;
+    left: 35%;  
+    font-weight: 800;
+    letter-spacing: 1px;
+    
+  }
+  .mainNav__links {
+    display: flex;
+    position: relative;
+    right: 10%;
+  }
+  @media screen and (max-width: 799px) {
+    .mainNav__links {
+      display: none;
+    }
+  }
+  .mainNav__link {
+    color: #637498;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 600;
+    box-shadow: inset 0px -10px 0px rgba(255, 255, 255, 0.5);
+    transition: all 0.4s ease, transform 0.2s ease;
+    padding: 2px 4px;
+    transform: translateY(0px);
+  }
+  .mainNav__link:hover {
+    transform: translateY(-5px);
+    box-shadow: inset 0px -20px 0px white;
+  }
+
+
+  /* контент  */
+  .about-page{
+    position: relative;
+    top:170px;
+    font-size: 2ch;
+    width: 1200px;
+    left: 300px;
+  }
+
+  .container{
+    width: fit-content;
+    
+  }
+
+  h1{
+    position: relative;
+    bottom: 70px;
+    font-size: 3ch;
+  }
+  p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+
+
+  /*  футер */
+  footer{
+    display: block;
+    background-color: #202020;
+    height: 300px;
+    width: 100%;
+    position:absolute;
+    top: 105%;
+    color: white;
+    line-height: 2em;
+  }
+  .footer{
+    
+    height: 300px;
+    
+  }
+  
+  
+  .container1{
+    display: flex;
+  }
+  .aa {
+    text-decoration: none;
+    List-style: none;
+    list-style-type: none;
+    color: white;
+  }
+  
+  .aa:link, .aa:link:visited {
+    color: white;
+  }
+  .aa:hover {
+    color: #0077b5;
+    
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .footer-menu{
+    padding: 0px 0px;
+    position: relative;
+    top: -50px;
+  }
+  .footer-menu2{
+    padding: 0px 0px;
+    position: relative;
+    top: -50px;
+  }
+  .footer-box1{
+    padding: 0px 30px;
+    position: relative;
+    left: 200px;
+    width: fit-content;
+    height: fit-content;
+  }
+  .footer-box2{
+    padding: 0px 30px;
+    position: relative;
+    left: 250px;
+    width: fit-content;
+    height: fit-content;
+  }
+  .footer-box3{
+    padding: 0px 30px;
+    position: relative;
+    left: 350px;
+    width: fit-content;
+    height: fit-content;
+  }
+  .footer-box4{
+    padding: 0px 30px;
+    position: absolute;
+    left:0;
+    top: 25px;
+    
+  }
+  .list-payment{
+    position: relative;
+    display: flex;
+    right: 37px;
+  
+  }
+  
+  .contacts-box{
+    position: relative;
+    top: -40px;
+    color: white;
+    text-decoration: none;
+    List-style: none;
+    list-style-type: none;
+  }
+  .container2{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .logo {
+      margin: 0;
+      color: #fff;
+      font-size: 11pt;
+      
+  
+  }
+  
+  .links-grey{
+    color: white;
+  }
+  .footer-bottom{
+    position: relative;
+    bottom: 70px;;
+  }
+  .footer-top{
+    height: 300px;
+  }
+  
+  .aa1{
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+    List-style: none;
+    list-style-type: none;
+    font-weight: bold;
+  }
+  
+  .aa1:hover {
+    color: #637498;
+  }
+  
+  .map{
+    position: relative;
+    left: 70%;
+    bottom: 300px;
+    width: 400px;
+    height: 200px;
+  }
